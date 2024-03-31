@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "label": "Full Name",
+        "name": "name",
+        "type": "text",
+        "value" : "",
+        "validation_msg" : "",
+        "allowed_for": [
+            "REGISTRATION"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Email",
+        "name": "email",
+        "type": "text",
+        "value" : "",
+        "validation_msg" : "",
+        "allowed_for": [
+            "LOGIN",
+            "REGISTRATION"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Password",
+        "name": "password",
+        "type": "password",
+        "value" : "",
+        "validation_msg" : "",
+        "allowed_for": [
+            "LOGIN",
+            "REGISTRATION"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "Confirm Password",
+        "name": "password_confirmation",
+        "type": "password",
+        "value" : "",
+        "validation_msg" : "",
+        "allowed_for": [
+            "REGISTRATION"
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  
+  }
+  .login-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px !important;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 12px 11px 8px rgba(0, 0, 0, 0.1)
+  }
+  input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    /* border: 1px solid #000000; */
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    /* background-color: #5C6BC0; */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
