@@ -9,6 +9,10 @@ Run Composer to setup the libraries.
 ```   
 composer update
 ```
+Setup Env 
+```
+copy .env.example .env
+```
 Run Migrations to setup the DB. (Create Empty **Mysql** Database First in your local system)
 ```
 php artisan migrate
